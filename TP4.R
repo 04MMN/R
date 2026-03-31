@@ -9,7 +9,7 @@ model
 plot(x,y,main = "Nuange de points")
 abline(model,col="blue",lty=3,lwd=3) #droite de régression 
 lines(exp(u),yi,col="green")
-coef(model)
+coef(model) 
 anova(model)
 summary(model)#les paramètres fixes du model sont estimés : 4.424 pour l'ordonnée à l'origine 
 #et -0.034 pour la pente.
